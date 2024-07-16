@@ -1,0 +1,47 @@
+.app {
+  display: flex;
+}
+
+.filter-container {
+  width: 250px;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.filter-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filter-option input {
+  margin-right: 10px;
+}
+
+.articles-container {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+}
+
+
+.pagination li button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pagination li button:disabled {
+  cursor: not-allowed;
+  color: #ddd;
+}
+
+.pagination li button.active {
+  font-weight: bold;
+  color: #000;
+}
